@@ -1,0 +1,166 @@
+@font-face {
+    font-family: "Breaking B";
+    src: url(font/Breaking\ Bad.ttf);
+    
+}
+body{
+    background-image:url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    text-align: center;
+    color:white;
+    font-family: "Breaking B";
+    font-size:36px;
+    
+}
+
+/* CSS de index.html */
+
+#logo{
+   height: 200px;
+   width: 200px;
+}
+
+
+#poster{
+    border: 10px outset brown;
+    border-radius: 22px;
+    height: 300px;
+    width: 700px;
+
+}
+
+/*CSS de formulario.html*/
+#formulario{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    text-align: left;
+}
+
+
+fieldset{
+    background-color: rgba(247, 247, 90, 0.787);
+}
+
+#file{
+    background-color: rgb(154, 152, 152);
+}
+
+h1{
+    color: orange;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    
+}
+
+.italic{
+    font-style: italic;
+}
+
+#postal{
+    margin:10px
+}
+
+#reset{
+    background-color:  rgb(237, 70, 70) ;
+}
+
+#submit{
+    background-color: rgb(109, 239, 109);
+}
+
+
+#titulos{
+    background-color: yellow;
+    font-weight: bold;
+}
+
+
+/* CSS de tabla.html */
+#bodytabla{
+    background-color: #0c3e11;
+    background-image: none;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* TABLA 1 */
+#tabla1{
+    background-color: black;
+    border:3px solid black;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+tr td{
+    border: 3px solid black;
+    height: 73px;
+    width: 68px;
+}
+
+.celda1{
+    background-color: greenyellow;
+}
+
+
+.celda2{
+    background-color: rgb(198, 212, 97);
+}
+
+.celda3{
+    background-color: white;
+}
+
+.celda4{
+    background-color: rgb(68, 109, 3);
+}
+
+.celda5{
+    background-color: rgb(24, 73, 24);
+}
+
+.celda6 {
+    background-color:  rgb(197, 215, 62);;
+}
+
+.celda7{
+    background-color: rgb(158, 157, 157);
+}
+
+.celda8{
+    background-color: rgb(69, 57, 57);
+}
+
+.celda9{
+    background-color: rgb(129, 71, 129);
+}
+
+/* TABLA 2 */
+#tabla2{
+
+    background-color: black;
+    border:3px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.celda10{
+    background-color: rgb(191, 236, 9);
+    border:3px solid black;
+    height: 73px;
+    width: 68px;
+}
+
+sub{
+    font-size: 10px;
+    font-weight: normal;
+}

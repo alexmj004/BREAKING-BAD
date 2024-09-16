@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Formulario</title>
+</head>
+<body id="formulario">
+    <form action="mailto:raul.rodriguez@proeducaglobal.com">
+        <h1>Breaking Bad- Que comience el juego!</h1>
+        <fieldset>
+            <legend id="titulos">Datos Personales</legend>
+            <p class="italic"> Nombre: </p> <input type="text" name="" id="" required><br>
+            <p class="italic">Apellidos: </p> <input type="text" name="" id="" required><br>
+            <p class="italic"> Dirección Postal:</p>  <input type="text" name="" id="postal" placeholder="Calle"><input type="text" name="" id="postal" placeholder=" Nº"><input type="text" name="" id="postal" placeholder=" Piso"><input type="text" name="" id="postal" placeholder="Cód.Postal"><input type="text" name="" id="postal" placeholder="Ciudad"><br>
+            <p class="italic"> DNI: </p> <input type="text" name="" id=""><br>
+            <p class="italic"> Correo Electrónico: </p> <input type="email" name="" id="" required>
+        </fieldset><br>
+        <fieldset>
+            <legend id="titulos">Sexo Usuario</legend>
+            <p class="italic">Hombre</p><input type="radio" name="sexo" id="">
+            <p class="italic">Mujer</p><input type="radio" name="sexo" id="">
+
+        </fieldset><br>
+        <fieldset>
+            <legend id="titulos"></legend>Fecha nacimiento</legend>
+            <input type="date" name="" id="">
+
+        </fieldset><br>
+        <fieldset>
+            <legend id="titulos">Personajes</legend>
+            <input type="text" list="personajes">
+            <datalist id="personajes">
+                <option value="Jessie Pinkman"></option>
+                <option value="Walter White"></option>
+                <option value="Saul Goodman"></option>
+                <option value="GustavoFring"></option>
+                <option value="Pollos Hermanos"></option>
+                <option value="Otros personajes"></option>
+            </datalist>
+        </fieldset><br>
+        <fieldset>
+            <legend id="titulos">Comentarios</legend>
+            <textarea name="" id="" cols="50" rows="10">
+                
+            </textarea>
+        </fieldset>
+        <br>
+        <input type="submit" value="Enviar" id="submit" ><br>
+        <input type="reset" value="Borrar" id="reset"><br>
+        <input type="file" name="" id="file">
+           
+            
+        
+        
+    </form>
+</body>
+</html>
